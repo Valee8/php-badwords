@@ -10,7 +10,7 @@
 
 <p>
     <?php
-        $testo = "Lorem ipsum dolor sit amet consectetur, adipisicing elit.";
+        $testo = "Lorem ipsum dolor sit amet consectetur, adipisicing elit dolor.";
         echo "Testo: " . $testo;
     ?>
 </p>
