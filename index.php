@@ -11,6 +11,12 @@
 <?php
     $testo = "Ciao ciao ciao sono Valerio";
 ?>
+
+<p>
+    <?php
+        echo "Testo: " . $testo;
+    ?>
+</p>
  
 </body>
 </html>
