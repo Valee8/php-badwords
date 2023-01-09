@@ -17,6 +17,10 @@
         echo "Testo: " . $testo;
     ?>
 </p>
+
+<?php
+    echo "Lunghezza testo: " . strlen($testo);
+?>
  
 </body>
 </html>
