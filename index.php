@@ -18,6 +18,18 @@
 <?php
     echo "Lunghezza testo: " . strlen($testo);
 ?>
+
+<p>
+    <?php
+        $parola = $_GET["parola"];
+        $testocensurato = str_replace($parola, "***", $testo);
+        echo "Testo censurato: " . $testocensurato;
+    ?>
+</p>
+
+<?php
+    echo "Lunghezza testo censurato: " . strlen($testocensurato);
+?>
  
 </body>
 </html>
