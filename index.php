@@ -7,6 +7,10 @@
     <title>PHP Badwords</title>
 </head>
 <body>
+
+<?php
+    $testo = "Ciao ciao ciao sono Valerio";
+?>
  
 </body>
 </html>
