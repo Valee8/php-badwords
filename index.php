@@ -8,12 +8,9 @@
 </head>
 <body>
 
-<?php
-    $testo = "Ciao ciao ciao sono Valerio";
-?>
-
 <p>
     <?php
+        $testo = "Lorem ipsum dolor sit amet consectetur, adipisicing elit.";
         echo "Testo: " . $testo;
     ?>
 </p>
